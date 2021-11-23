@@ -1,0 +1,13 @@
+{
+    "configurations": [
+        {
+            "name": "Launch Debug",
+            "request": "launch",
+            "args": [
+                "-d","chrome"
+            ],
+            "type": "dart",
+            "flutterMode": "debug"
+        }
+    ]
+}
