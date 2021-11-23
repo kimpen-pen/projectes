@@ -56,7 +56,12 @@ class Home extends StatelessWidget {
               onPressed: () {
                 Navigator.pushNamed(context, '/second');
               },
-            )
+            ),
+            IconButton(
+                onPressed: () {
+                  print("You clicked me!");
+                },
+                icon: Icon(Icons.star, color: Colors.red[500]))
           ],
         ),
         body: BodyContent());
